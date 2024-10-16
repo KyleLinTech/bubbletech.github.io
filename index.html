@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BubbleTech</title>
-<style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BubbleTech</title>
+  <style>
   body {
     margin: 0;
     font-family: Arial, sans-serif;
+    line-height: 1.6;
   }
   .top-bar {
     background-color: #333;
@@ -25,6 +26,14 @@
   .top-bar a:hover {
     text-decoration: underline;
   }
+  .section {
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  .section h2 {
+    margin-top: 0;
+  }
 </style>
 </head>
 <body>
@@ -38,7 +47,28 @@
   </div>
 </div>
 
-<!-- The rest of your page content goes here -->
+<main>
+  <!-- Tools Section -->
+  <section id="tools" class="section">
+    <h2>Tools</h2>
+    <p>Welcome to our Tools section. Here you can find a variety of useful tools and resources.</p>
+    <!-- Add more content here as needed -->
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about-us" class="section">
+    <h2>About Us</h2>
+    <p>We are BubbleTech, 10+ years of experience in Unity Development.</p>
+    <!-- Add more content here as needed -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>If you have any questions or need further assistance, feel free to contact us. You can reach us at <a href="mailto:kickasslin@mail.com">kickasslin@mail.com</a>.</p>
+    <!-- Add more content here as needed -->
+  </section>
+</main>
 
 </body>
 </html>
